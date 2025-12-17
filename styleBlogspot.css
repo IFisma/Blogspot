@@ -1,43 +1,62 @@
 
     body{
-    background-color: rgb(73, 73, 73);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    padding: 20px;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("/Carpetapex/Blogspot/Imagenes/Fondo\ Negro\ Gris\ Difuminado.jpg ");
-}
+        background-image: ;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(Imagenes/Fondo\ Negro\ Gris\ Difuminado.jpg);
+    }
 .card{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: cadetblue;
+    border-radius: 12px ;
+    box-shadow: 0 3px 10px cadetblue;
+    text-align: center;
     background-image: url(Imagenes/We\ Heart\ It.gif);
-    border:1px solid #e5e7eb;
-    padding: 16px;
-    width: 90%;
-    max-width: 850px;
-    border-radius: 8px ;
-    box-shadow: 0 6px 18px rgba(16,24,40,0.6);
-    margin-bottom: 20px; 
+    }
+    .card h1{
+        margin: 0 0 10px;
+        color: cadetblue;
+    }
+    .card p{
+        color: cadetblue;
     }
     .cardtwo{
-    background-color: black;
-    border:1px solid #e5e7eb;
-    padding: 16px;
-    width: 90%;
-    max-width: 850px;
-    border-radius: 8px ;
-    box-shadow: 0 6px 18px rgba(16,24,40,0.6);
-    margin-bottom: 20px; 
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background:black;
+    border-radius: 12px ;
+    box-shadow: 0 3px 10px white; 
     display: flex;
+    gap: 20px;
     }
-
-h1,p{
-    color:cadetblue;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .cardtwo p{
+        color: cadetblue;
+    }
+.cardtwo-content{
+    flex: 1;
 }
-img{
-    width: 50%;
-    justify-content:flex-end}
+cardtwo-content img{
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+cardtwo-description{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+@media(max-width: 600px){
+    .cardtwo{
+        flex-direction: column;
+        text-align:center;
+    }
+    .cardtwo-content img{
+        max-width: 100%;
+    }
+}
