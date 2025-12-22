@@ -23,6 +23,9 @@
     .card p{
         color: cadetblue;
     }
+    h2{
+        color: white;
+    }
     .cardtwo{
     max-width: 800px;
     margin: 20px auto;
