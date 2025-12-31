@@ -53,6 +53,41 @@ cardtwo-description{
     display: flex;
     align-items: center;
 }
+
+
+
+
+.cardtree{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px ;
+    box-shadow: 0 3px 10px white; 
+    display: flex;
+    gap: 20px;
+    }
+    .cardtree h3{
+        color: black;
+    }
+    .cardtree p{
+        color:slategray;
+    }
+.cardtree-content{
+    flex: 1;
+}
+cardtree-content img{
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+cardtree-description{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
 @media(max-width: 600px){
     .cardtwo{
         flex-direction: column;
