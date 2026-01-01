@@ -3,7 +3,7 @@
         margin: 0;
         padding: 0;
         font-family: Arial, Helvetica, sans-serif;
-        background-image: url(Imagenes/Fondo\ Negro\ Gris\ Difuminado.jpg);
+        background-color:cadetblue;
     }
 .card{
     max-width: 800px;
@@ -71,7 +71,7 @@ cardtwo-description{
         color: black;
     }
     .cardtree p{
-        color:slategray;
+        color:cadetblue;
     }
 .cardtree-content{
     flex: 1;
